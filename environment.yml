@@ -1,0 +1,15 @@
+name: whisper_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - portaudio
+  - pip:
+    - faster-whisper>=0.10.0
+    - keyboard>=0.13.5
+    - PyAudio>=0.2.13
+    - wxPython>=4.2.1
+    - sounddevice>=0.4.6
