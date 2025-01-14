@@ -1,0 +1,38 @@
+.TH XWHISPER 1 "2025-01-13" "0.1.0" "XWhisper Manual"
+.SH NAME
+xwhisper \- Cross-platform speech recognition using OpenAI's Whisper
+.SH SYNOPSIS
+.B xwhisper
+[\fIOPTIONS\fR] [\fIFILE\fR]
+.SH DESCRIPTION
+XWhisper is a desktop application for real-time speech recognition using OpenAI's Whisper model. It provides a simple interface for recording and transcribing speech to text, with support for multiple languages and audio formats.
+.SH OPTIONS
+.TP
+.B \-h, \-\-help
+Show help message and exit
+.TP
+.B \-v, \-\-version
+Show program's version number and exit
+.TP
+.B \-l, \-\-language \fILANG\fR
+Set transcription language (default: auto-detect)
+.TP
+.B \-o, \-\-output \fIFILE\fR
+Specify output file for transcription
+.TP
+.B \-r, \-\-realtime
+Enable real-time transcription
+.SH EXAMPLES
+Transcribe an audio file:
+.B xwhisper audio.wav
+
+Real-time transcription from microphone:
+.B xwhisper -r
+
+Specify language and output file:
+.B xwhisper -l en -o transcript.txt audio.mp3
+.SH AUTHOR
+Daniel G <danielg@example.com>
+.SH "SEE ALSO"
+.BR whisper (1),
+.BR speech_recognition (1)

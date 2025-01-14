@@ -1,0 +1,9 @@
+xwhisper (0.1.0-1) xwhisper; urgency=medium
+
+  * Initial release of XWhisper cross-platform speech recognition
+  * Using custom distribution name 'xwhisper' to indicate this is a standalone
+    application distribution not tied to any specific Debian release
+  * Added comprehensive man page documentation
+  * Improved package metadata and dependencies
+
+ -- Daniel G <danielg@example.com>  Mon, 13 Jan 2025 16:18:00 -0500

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=XWhisper
+Comment=Speech Recognition using OpenAI's Whisper
+Exec=xwhisper
+Icon=xwhisper
+Terminal=false
+Type=Application
+Categories=Audio;AudioVideo;Speech;
+Keywords=speech;recognition;transcription;

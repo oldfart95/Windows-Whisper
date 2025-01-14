@@ -1,0 +1,3 @@
+dh_auto_install
+dh_installman
+dh_missing

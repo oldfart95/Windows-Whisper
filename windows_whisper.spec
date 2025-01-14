@@ -18,12 +18,12 @@ version_info = VSVersionInfo(
                 StringTable(
                     u'040904B0',
                     [StringStruct(u'CompanyName', u''),
-                     StringStruct(u'FileDescription', u'Windows Whisper Speech Recognition'),
+                     StringStruct(u'FileDescription', u'XWhisper Speech Recognition'),
                      StringStruct(u'FileVersion', u'1.0.0'),
-                     StringStruct(u'InternalName', u'Windows Whisper'),
+                     StringStruct(u'InternalName', u'XWhisper'),
                      StringStruct(u'LegalCopyright', u'MIT License'),
-                     StringStruct(u'OriginalFilename', u'Windows Whisper.exe'),
-                     StringStruct(u'ProductName', u'Windows Whisper'),
+                     StringStruct(u'OriginalFilename', u'XWhisper.exe'),
+                     StringStruct(u'ProductName', u'XWhisper'),
                      StringStruct(u'ProductVersion', u'1.0.0')])
             ]),
         VarFileInfo([VarStruct(u'Translation', [1033, 1200])])
@@ -57,7 +57,7 @@ exe = EXE(
     a.zipfiles,
     a.datas,
     [],
-    name='Windows Whisper',
+    name='XWhisper',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,

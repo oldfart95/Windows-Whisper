@@ -1,0 +1,13 @@
+Package: xwhisper
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Daniel G <danielg@example.com>
+Installed-Size: 23
+Depends: python3-numpy, python3-pyperclip, python3-pyqt6, python3:any, python3-sounddevice, python3-faster-whisper, python3-pyinstaller, python3-whisper, python3-torch, python3-torchaudio
+Section: sound
+Priority: optional
+Homepage: https://github.com/yourusername/xwhisper
+Description: Cross-platform speech recognition using OpenAI's Whisper
+ XWhisper is a desktop application for real-time speech recognition
+ using OpenAI's Whisper model. It provides a simple interface for
+ recording and transcribing speech to text.

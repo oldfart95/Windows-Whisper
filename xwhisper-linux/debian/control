@@ -1,0 +1,40 @@
+Source: xwhisper
+Section: sound
+Priority: optional
+Maintainer: Ubuntu Maintainers <ubuntu-devel-discuss@lists.ubuntu.com>
+Build-Depends: debhelper-compat (= 13),
+               dh-python,
+               python3-all,
+               python3-setuptools,
+               python3-dev,
+               libportaudio2,
+               portaudio19-dev,
+               libasound2-dev
+Standards-Version: 4.6.2
+Homepage: https://github.com/yourusername/xwhisper
+Vcs-Browser: https://github.com/yourusername/xwhisper
+Vcs-Git: https://github.com/yourusername/xwhisper.git
+
+Package: xwhisper
+Architecture: all
+Depends: ${python3:Depends},
+         ${misc:Depends},
+         python3-pyqt6,
+         python3-sounddevice,
+         python3-numpy,
+         python3-faster-whisper,
+         python3-torch,
+         python3-torchaudio,
+         libportaudio2,
+         portaudio19-dev,
+         libasound2-dev
+Description: Cross-platform speech recognition using OpenAI's Whisper
+ XWhisper is a desktop application for real-time speech recognition
+ using OpenAI's Whisper model. It provides a simple interface for
+ recording and transcribing speech to text.
+ .
+ Features:
+  * Real-time speech recognition
+  * Simple graphical interface
+  * Cross-platform support
+  * High-quality transcription

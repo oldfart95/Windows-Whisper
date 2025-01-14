@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --with python3 --buildsystem=pybuild
+
+override_dh_auto_install:
+	dh_auto_install
+	dh_installman debian/xwhisper.1
+	dh_install --sourcedir=../assets icon.png /usr/share/icons/hicolor/256x256/apps/xwhisper.png
+	dh_install debian/xwhisper.desktop /usr/share/applications/
+	dh_installsystemd
+	dh_missing --list-missing
+
+override_dh_gencontrol:
+	dh_gencontrol -- -D"Distribution: xwhisper"

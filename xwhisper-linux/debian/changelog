@@ -1,0 +1,8 @@
+xwhisper (0.1.0-1) unstable; urgency=medium
+
+  * Initial release for Ubuntu/Kubuntu Linux
+  * Added systemd service integration
+  * Improved desktop integration
+  * Optimized build process for Linux
+
+ -- Daniel G <danielg@example.com>  Sun, 13 Jan 2025 16:50:00 -0500

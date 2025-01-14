@@ -1,6 +1,6 @@
-# Windows Whisper
+# XWhisper
 
-A Windows desktop application for real-time speech recognition using OpenAI's Whisper model.
+A cross-platform desktop application for real-time speech recognition using OpenAI's Whisper model.
 
 ## Features
 
@@ -15,13 +15,13 @@ A Windows desktop application for real-time speech recognition using OpenAI's Wh
 ### Option 1: Direct Download (Recommended)
 1. Download the latest release from the releases page
 2. Extract the ZIP file to your desired location
-3. Run `Windows Whisper.exe`
+3. Run `XWhisper.exe` (Windows) or `XWhisper` (Linux/Mac)
 
 ### Option 2: Build from Source
 1. Clone this repository:
    ```bash
-   git clone https://github.com/oldfart95/Windows-Whisper.git
-   cd Windows-Whisper
+   git clone https://github.com/oldfart95/XWhisper.git
+   cd XWhisper
    ```
 
 2. Create a conda environment (recommended):
@@ -37,14 +37,14 @@ A Windows desktop application for real-time speech recognition using OpenAI's Wh
 
 3. Build the executable:
    ```bash
-   pyinstaller windows_whisper.spec
+   pyinstaller xwhisper.spec
    ```
 
 4. The executable will be created in the `dist` folder
 
 ## Usage
 
-1. Launch the application by running `Windows Whisper.exe`
+1. Launch the application by running `XWhisper.exe` (Windows) or `XWhisper` (Linux/Mac)
 2. Click the "Start Recording" button to begin speech recognition
 3. Speak into your microphone
 4. The transcribed text will appear in the text area
@@ -53,7 +53,7 @@ A Windows desktop application for real-time speech recognition using OpenAI's Wh
 
 ## System Requirements
 
-- Windows 10 or later
+- Windows 10/11, Linux, or macOS
 - 4GB RAM minimum (8GB recommended)
 - Microphone
 - Internet connection (for first run to download the Whisper model)

@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --with python3 --buildsystem=pybuild
+
+override_dh_auto_install:
+	dh_auto_install
+	dh_installman debian/xwhisper.1
+	dh_missing --list-missing
+
+override_dh_gencontrol:
+	dh_gencontrol -- -D"Distribution: xwhisper"

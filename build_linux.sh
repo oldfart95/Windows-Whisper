@@ -29,4 +29,4 @@ python3 setup.py sdist bdist_wheel
 # Build .deb package
 python3 setup.py --command-packages=stdeb.command bdist_deb
 
-echo "Build complete. Packages available in dist/ and deb_dist/"
+echo "XWhisper build complete. Packages available in dist/ and deb_dist/"

@@ -1,0 +1,14 @@
+[Unit]
+Description=XWhisper Speech Recognition Service
+After=network.target sound.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/xwhisper --service
+Restart=on-failure
+User=%i
+Environment="DISPLAY=:0"
+Environment="XAUTHORITY=/home/%i/.Xauthority"
+
+[Install]
+WantedBy=multi-user.target
