@@ -20,14 +20,46 @@ wheels/
 .installed.cfg
 *.egg
 
-# Virtual Environment
+# Logs and databases
+*.log
+*.sqlite
+*.db
+*.sql
+*.sqlite3
+
+# Environment files
+.env
+.venv
+env/
 venv/
 ENV/
-env/
+env.bak/
+venv.bak/
 
-# IDE
+# IDE specific files
 .vscode/
 .idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
 
-# Build artifacts
-deb_dist/
+# Build files
+build/
+dist/
+*.spec
+*.pyz
+*.pyd
+*.pyo
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# System files
+.DS_Store
+Thumbs.db
